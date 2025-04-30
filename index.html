@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Bootstrap lab1</title>
+</head>
+
+<body class="bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm p-3 mb-5  rounded">
+        <div class="container-fluid ">
+            <img class="navbar-brand" src="images/logo.png" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Browse
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Landing
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search Courses"
+                                aria-label="Search">
+                        </form>
+                    </li>
+                </ul>
+                <button class="btn btn-light">Sign In</button>
+                <button class="btn btn-dark" style="background-color: rgb(116, 79, 254);">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section>
+        <div class="row min-vh-100 bg-body-tertiary">
+            <!-- Hero content -->
+            <div
+                class="col-md-6 d-flex flex-column justify-content-start text-center text-md-start px-md-5 mx-md-5 mt-5 gap-4">
+                <h2 class="fw-bold " style="font-size: 3.4rem;">Become a Vanilla JavaScript Developer</h2>
+                <p class="text-secondary" style="font-size: 1.4rem;">In this tutorial, we are going to learn about
+                    JavaScript (Vanilla JS) - for
+                    building incredible, powerful JavaScript applications.</p>
+                <ul class="text-secondary list-unstyled">
+                    <li>Hours</li>
+                    <li>12 Videos</li>
+                    <li>10,234+ Enrolled</li>
+                </ul>
+                <div>
+                    <a href="#" class="btn btn-success px-4 py-3 fs-6 ">Watch Preview</a>
+                </div>
+            </div>
+            <!-- Sign in form-->
+            <form
+                class="col-12 col-md-4 d-flex flex-column justify-content-center gap-3 border text-center text-md-start p-5 my-5 h-75 shadow-lg bg rounded">
+                <div class="h3">Create Free Account</div>
+                <div class="d-flex flex-column gap-3 flex-md-row justify-content-evenly">
+                    <button type="button" class="btn px-4" style="background-color: rgb(241, 245, 249);">Google</button>
+                    <button type="button" class="btn px-4"
+                        style="background-color: rgb(241, 245, 249);">Twitter</button>
+                    <button type="button" class="btn px-4"
+                        style="background-color: rgb(241, 245, 249);">Facebook</button>
+                </div>
+                <div class="d-flex">
+                    <hr class="w-50">or
+                    <hr class="w-50">
+                </div>
+                <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                <input type="text" class="form-control" placeholder="Password" aria-label="Password">
+                <button class="btn btn-primary py-2" type="button" style="background-color: rgb(116, 79, 254);">Start
+                    Courses for Free</button>
+                <hr>
+                <p class="text-secondary">By continuing you accept the <span class="fw-bold">Terms of Use, Privacy
+                        Policy, and Data Policy</span></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Features banner -->
+    <div class=" d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column flex-md-row justify-content-evenly pb-4 gap-2" style="width: 91%;">
+            <div class="h5 ">Shareable Certificate</div>
+            <div class="h5">Flexible Deadlines</div>
+            <div class="h5">100% Online Courses</div>
+            <div class="h5">Approx.24 hours </div>
+        </div>
+    </div>
+
+    <!-- Course Description -->
+    <section class="row gap-4 justify-content-center align-content-center" style="height: 100%; width: 100vw; background-color: rgb(226, 232, 240);">
+        <div class="my-5 d-flex flex-column justify-content-center text-center gap-3">
+            <div class="fs-5" style="color: rgb(116, 79, 254);">COURSE DESCRIPTION</div>
+            <div class="fw-bold" style="font-size: 2.5rem;">What will you learn?</div>
+            <div class="text-secondary fs-5 px-1">Vanilla JS is a fast, lightweight, cross-platformframework for building incredible, powerful JavaScript
+                applications.</div>
+        </div>
+
+        <!-- Cards -->
+        <div class="col-12 col-md-5 flex-column  align-content-center rounded" style="background-color: white; height: 45vh;">
+            <div class="px-4 d-flex flex-column flex-md-row  h-25">
+                <img class="rounded-circle" style="background-color:rgb(116, 79, 254);" width="17%" src="images/crsImg1.png" alt="">
+                <div class="px-md-3 flex-column justify-content-end">
+                    <div>
+                        <div class=" h4 fw-bold">Introduction to JavaScript</div>
+                        <div class="text-secondary d-flex justify-content-start gap-4">
+                            <p>Courses - 1</p>
+                            <p>6 Lessons</p>
+                            <p>1 HOUR 12 MIN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-secondary p-4">
+                In et tempus dui, in porta dolor. Donec molestie a purus ut interdum. Donec quis felis dignissim, luctus libero ornare           
+            </div>
+            <a class="px-4" href="#" style="color: rgb(116, 79, 254);;">View Chapter Details + </a>       
+        </div>
+
+
+<div class="col-12 col-md-5 flex-column  align-content-center rounded" style="background-color: white; height: 45vh;">
+            <div class="px-4 d-flex flex-column flex-md-row  h-25">
+                <img class="rounded-circle" style="background-color:rgb(116, 79, 254);" width="17%" src="images/crsImg1.png" alt="">
+                <div class="px-md-3 flex-column justify-content-end">
+                    <div>
+                        <div class=" h4 fw-bold">Introduction to JavaScript</div>
+                        <div class="text-secondary d-flex justify-content-start gap-4">
+                            <p>Courses - 1</p>
+                            <p>6 Lessons</p>
+                            <p>1 HOUR 12 MIN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-secondary p-4">
+                In et tempus dui, in porta dolor. Donec molestie a purus ut interdum. Donec quis felis dignissim, luctus libero ornare           
+            </div>
+            <a class="px-4" href="#" style="color: rgb(116, 79, 254);;">View Chapter Details + </a>       
+        </div>
+        <div class="col-12 col-md-5 flex-column  align-content-center rounded" style="background-color: white; height: 45vh;">
+            <div class="px-4 d-flex flex-column flex-md-row  h-25">
+                <img class="rounded-circle" style="background-color:rgb(116, 79, 254);" width="17%" src="images/crsImg1.png" alt="">
+                <div class="px-md-3 flex-column justify-content-end">
+                    <div>
+                        <div class=" h4 fw-bold">Introduction to JavaScript</div>
+                        <div class="text-secondary d-flex justify-content-start gap-4">
+                            <p>Courses - 1</p>
+                            <p>6 Lessons</p>
+                            <p>1 HOUR 12 MIN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-secondary p-4">
+                In et tempus dui, in porta dolor. Donec molestie a purus ut interdum. Donec quis felis dignissim, luctus libero ornare           
+            </div>
+            <a class="px-4" href="#" style="color: rgb(116, 79, 254);;">View Chapter Details + </a>       
+        </div>
+        <div class="col-12 col-md-5 flex-column  align-content-center rounded" style="background-color: white; height: 45vh;">
+            <div class="px-4 d-flex flex-column flex-md-row  h-25">
+                <img class="rounded-circle" style="background-color:rgb(116, 79, 254);" width="17%" src="images/crsImg1.png" alt="">
+                <div class="px-md-3 flex-column justify-content-end">
+                    <div>
+                        <div class=" h4 fw-bold">Introduction to JavaScript</div>
+                        <div class="text-secondary d-flex justify-content-start gap-4">
+                            <p>Courses - 1</p>
+                            <p>6 Lessons</p>
+                            <p>1 HOUR 12 MIN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-secondary p-4">
+                In et tempus dui, in porta dolor. Donec molestie a purus ut interdum. Donec quis felis dignissim, luctus libero ornare           
+            </div>
+            <a class="px-4" href="#" style="color: rgb(116, 79, 254);;">View Chapter Details + </a>       
+        </div>
+    
+    </section>
+
+    <!-- Instructor banner -->
+    <section class="min-vh-100">
+        <div>
+            <div><img src="images/instructor.png" alt=""></div>
+            <div></div>
+        </div>
+        <div></div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
